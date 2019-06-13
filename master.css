@@ -1,0 +1,31 @@
+/*debug*/
+
+.bg-nav {
+  background-color: #2C3E50;
+  /* height: 100px; */
+}
+
+.bg-header {
+  background-color: #1ABC9C;
+  height: 500px;
+}
+
+/*
+[class*="col-"] {
+height: 100px;
+background: white;
+border: solid 1px black;
+} */
+
+/*NAVBAR*/
+#nav-brand {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.nav.navbar-nav a {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
