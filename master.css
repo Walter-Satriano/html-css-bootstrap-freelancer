@@ -39,7 +39,6 @@ img {
 .start {
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-weight: 700;
   text-align: center;
 }
 
@@ -49,7 +48,8 @@ img {
 
 .start h1 {
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 65px;
+  font-weight: 700;
   padding-top: 2%;
 }
 
@@ -58,7 +58,33 @@ img {
   font-size: 40px;
 }
 
-.start h2 {
+.start h3 {
   font-size: 20px;
+  font-weight: 700;
   padding-bottom: 5%;
+}
+
+/*SEZIONE PORTFOLIO*/
+.sez-portfolio-style {
+  color: #2C3E50;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.sez-portfolio-style h2 {
+  background-color: white;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sez-portfolio-style .glyphicon {
+  font-size: 40px;
+  padding: 2% 0;
+}
+
+.sez-portfolio-style .img-responsive {
+  margin-top: 30px;
+  border-radius: 10px;
 }
