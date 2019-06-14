@@ -1,31 +1,64 @@
 /*debug*/
 
-.bg-nav {
-  background-color: #2C3E50;
-  /* height: 100px; */
+
+
+/*REGOLE GENERALI*/
+img {
+  height: 250px;
 }
 
-.bg-header {
+/*REGOLE HEADER E NAVBAR*/
+.style-header {
   background-color: #1ABC9C;
-  height: 500px;
 }
 
-/*
-[class*="col-"] {
-height: 100px;
-background: white;
-border: solid 1px black;
-} */
-
-/*NAVBAR*/
-#nav-brand {
-  color: white;
-  font-size: 30px;
+.style-nav {
+  background-color: #2C3E50;
   text-transform: uppercase;
 }
 
-.nav.navbar-nav a {
+ .style-nav .navbar-header > .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
   color: white;
-  font-size: 12px;
+  margin: 25px 0;
+}
+
+.style-nav .navbar-nav {
+ margin: 25px 0;
+}
+
+.style-nav .navbar-nav > li > a {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 15px;
+ font-weight: 700;
+ color: white;
+}
+
+.start {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+#avatar{
+  margin-top: 5%;
+}
+
+.start h1 {
   text-transform: uppercase;
+  font-size: 50px;
+  padding-top: 2%;
+}
+
+.start .glyphicon {
+  padding: 2% 0;
+  font-size: 40px;
+}
+
+.start h2 {
+  font-size: 20px;
+  padding-bottom: 5%;
 }
