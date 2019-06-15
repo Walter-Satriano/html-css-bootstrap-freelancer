@@ -152,3 +152,35 @@
   background-color: #1ABC9C;
   padding: 15px 20px;
 }
+
+/*FOOTER*/
+.footer-style, .copyright {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: #2C3E50;
+  padding: 5% 0;
+}
+
+.footer-style h3 {
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-bottom: 2%;
+}
+
+.footer-style p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.footer-style img {
+  width: 40px;
+  margin: 0 15px;
+}
+
+.copyright {
+  background-color: #1A252F;
+  padding: 1% 0;
+}
