@@ -3,9 +3,9 @@
 
 
 /*REGOLE GENERALI*/
-img {
+/* img {
   height: 250px;
-}
+} */
 
 /*REGOLE HEADER E NAVBAR*/
 .style-header {
@@ -43,6 +43,7 @@ img {
 }
 
 #avatar{
+  height: 250px;
   margin-top: 5%;
 }
 
@@ -66,20 +67,22 @@ img {
 
 /*SEZIONE PORTFOLIO*/
 .sez-portfolio-style {
+  background-color: white;
   color: #2C3E50;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
-.sez-portfolio-style h2 {
-  background-color: white;
+.sez-portfolio-style h2, .sez-about-style h2 {
   font-size: 50px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+  padding-top: 5%;
 }
 
-.sez-portfolio-style .glyphicon {
+.sez-portfolio-style .glyphicon-star,
+.sez-about-style .glyphicon-star {
   font-size: 40px;
   padding: 2% 0;
 }
@@ -87,4 +90,40 @@ img {
 .sez-portfolio-style .img-responsive {
   margin-top: 30px;
   border-radius: 10px;
+}
+
+/*SEZIONE ABOUT*/
+.sez-about-style {
+  background-color: #1ABC9C;
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+.sez-about-style p {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding: 7% 0;
+  text-align: left;
+}
+
+.sez-about-style .col-md-6 {
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.sez-about-style .glyphicon-save {
+  font-size: 18px;
+  margin-right: 5%;
+}
+
+.sez-about-style .btn-group-lg>.btn.btn-default {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  border: solid 2px white;
+  background-color: transparent;
+  padding: 15px 30px;
 }
