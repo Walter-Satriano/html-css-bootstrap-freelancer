@@ -1,12 +1,3 @@
-/*debug*/
-
-
-
-/*REGOLE GENERALI*/
-/* img {
-  height: 250px;
-} */
-
 /*REGOLE HEADER E NAVBAR*/
 .style-header {
   background-color: #1ABC9C;
@@ -73,7 +64,9 @@
   margin-top: 3%;
 }
 
-.sez-portfolio-style h2, .sez-about-style h2 {
+.sez-portfolio-style h2,
+.sez-about-style h2,
+.sez-contact-style h2 {
   font-size: 50px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -82,7 +75,8 @@
 }
 
 .sez-portfolio-style .glyphicon-star,
-.sez-about-style .glyphicon-star {
+.sez-about-style .glyphicon-star,
+.sez-contact-style .glyphicon-star {
   font-size: 40px;
   padding: 2% 0;
 }
@@ -97,7 +91,7 @@
   background-color: #1ABC9C;
   text-align: center;
   color: white;
-  margin-top: 5%;
+  margin-top: 7%;
   padding-bottom: 5%;
 }
 
@@ -105,7 +99,7 @@
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  padding: 7% 0;
+  padding: 4% 0;
   text-align: left;
 }
 
@@ -126,4 +120,35 @@
   border: solid 2px white;
   background-color: transparent;
   padding: 15px 30px;
+}
+
+/*SEZIONE CONTACT ME*/
+.sez-contact-style {
+  background-color: white;
+  color: #2C3E50;
+  text-align: center;
+  margin-top: 3%;
+  padding-bottom: 5%;
+}
+
+.sez-contact-style .input-group-lg > .input-group-addon {
+  background: none;
+  border: 0;
+  padding-bottom: 10%;
+}
+
+.sez-contact-style .form-control {
+  font-size: 25px;
+  padding: 30px 10px;
+  border: 2px solid lightgrey;
+  margin-bottom: 3%;
+}
+
+.sez-contact-style .btn-group-lg>.btn.btn-default {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  border: solid 2px white;
+  background-color: #1ABC9C;
+  padding: 15px 20px;
 }
